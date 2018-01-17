@@ -13,11 +13,9 @@ int main()
   {
   for(j=size-1;j<size;j++)
   {
-  if((mid=a[i]+a[j]/2)%2==0)
-  {
+  mid=a[i]+a[j]/2;
   median=a[mid];
   printf("%d",&median);
-  }
   }
   }
   return 0;
