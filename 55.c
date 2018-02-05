@@ -7,11 +7,11 @@ int main()
 	c=a*b;
 	if(c%2==0)
 	{
-		printf("\n yes");
+		printf("\n even");
 	}
 	else
 	{
-		printf("\n no");
+		printf("\n odd");
 	}
 	return 0;
 }
