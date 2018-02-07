@@ -1,15 +1,15 @@
 #include<stdio.h>
 int main()
 {
-int a,b,temp;
+int x,y,temp;
 printf("enter two numbers");
-scanf("%d%d",&a,&b);
+scanf("%d%d",&x,&y);
 printf("\nbefore swapping\n");
-printf("\na=%d and b=%d",a,b);
+printf("\nx=%d and y=%d",x,y);
 printf("\n after swaping");
-temp=a;
-a=b;
-b=temp;
-printf("\na=%d and b=%d",a,b);
+temp=x;
+x=y;
+y=temp;
+printf("\nx=%d and y=%d",x,y);
 return 0;
 }
