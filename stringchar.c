@@ -2,12 +2,12 @@
 int main()
 {
 char str[50];
-int num,i;
+int n,i;
 printf("Enter the string:");
 scanf("%s",&str);
 printf("Enter the limit:");
-scanf("%d",&num);
-for(i=0;i<num;i++)
+scanf("%d",&n);
+for(i=0;i<n;i++)
 {
 printf("%c",str[i]);
 }
