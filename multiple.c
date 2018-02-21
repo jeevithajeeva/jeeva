@@ -1,14 +1,15 @@
 #include<stdio.h>
 void main()
 {
-	int i,n;
+	int i,n,res;
 	printf("\n enter the number");
 	scanf("%d",&n);
-	for(i=n+1;i<=30;i++)
+	for(i=1;i<=5;i++)
 	{
-		if(i%n==0)
-		{
-			printf("\n %d",i);
-		}
+		res=n*i;
+		printf("\n%d",res);
 	}
+	return 0;
 }
+
+	
