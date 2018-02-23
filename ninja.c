@@ -1,9 +1,12 @@
 #include<stdio.h>
 int main()
 {
-	int a,b,c;
+	int a,b,c,i;
 	printf("\n enter the two numbers:");
-	scanf("%d%d",&a,&b);
+	for(i=0;i<3;i++)
+	{
+	scanf("%d %d",&a,&b);
+	}
 	if(a>b)
 	{
 		c=a-b;
