@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-int n,i=64;
+int num,i=64;
 printf("enter the number\n");
-scanf("%d",&n);
-  printf("%c",n+i);
+scanf("%d",&num);
+  printf("%c",num+i);
 return 0;
 }
