@@ -5,6 +5,10 @@ int main()
 	printf("\n enter the range:");
 	scanf("%d%d",&l,&r);
 	mid=(l+r)/2;
+	if(l==2)
+	{
+		count=count+1;
+	}
 	for(i=l;i<=r;i++)
 	{
 		for(j=2;j<i;j++)
